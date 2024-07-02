@@ -11,4 +11,4 @@ function calcularPromedioEntero(calificaciones) {
 
 const promedioEntero = calcularPromedioEntero(calificaciones);
 
-alert(`El promedio entero de las calificaciones es: ${promedioEntero}`);
+alert(`El promedio entero de las calificaciones es ` + ( promedioEntero));
