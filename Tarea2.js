@@ -36,7 +36,7 @@ const asignaturas = [
 function obtenerNombresPorNivel(asignaturas, nivel) {
     const asignaturasFiltradas = asignaturas.filter(asignatura => asignatura.nivel === nivel);
     const nombres = asignaturasFiltradas.map(asignatura => asignatura.nombre);
-    return nombres.join('\n'); // Unir nombres con salto de línea para el alert
+    return nombres.join('\n'); 
 }
 
 alert('Asignaturas de Primer Nivel:\n' + obtenerNombresPorNivel(asignaturas, 1));
